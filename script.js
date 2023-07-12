@@ -1,5 +1,3 @@
-
-// Add your JavaScript code here
-document.addEventListener("DOMContentLoaded", function() {
-    // Your code goes here
-});
+function showAnswer(element) {
+    element.nextElementSibling.classList.toggle("show");
+}

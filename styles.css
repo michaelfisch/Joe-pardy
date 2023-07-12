@@ -1,10 +1,34 @@
-/* Add your custom CSS styles here */
+/* CSS styling for Jeopardy color scheme */
 body {
-    background-color: #f2f2f2;
+    background-color: #1c4a79;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: #333;
-    text-align: center;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
+.category {
+    background-color: #003366;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.question {
+    background-color: #2a6496;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.answer {
+    background-color: #004b8d;
+    padding: 10px;
+    display: none;
+}
+
+.answer.show {
+    display: block;
+}
